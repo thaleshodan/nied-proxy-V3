@@ -1,6 +1,6 @@
-# NiedProxy v2.0
+# NiedProxy v3.0
 
-Advanced Tor proxy manager with real-time monitoring and security features.
+Localhost-Based I2P Router Clone with Tor Integration Using Python and React
 
 ## Features
 
@@ -14,7 +14,7 @@ Advanced Tor proxy manager with real-time monitoring and security features.
 
 ## Requirements
 
-- Linux/macOS system
+- Linux/macOS/Win system
 - Python 3.7+
 - Node.js 18+
 - Tor package
@@ -126,4 +126,3 @@ This tool is for educational and legitimate privacy purposes only. Users are res
 MIT License - see LICENSE file for details
 \`\`\`
 
-Para finalizar, vamos criar um script de inicialização:
