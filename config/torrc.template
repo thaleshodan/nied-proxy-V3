@@ -1,0 +1,36 @@
+# NiedProxy Tor Configuration Template
+# This file is used to configure Tor for NiedProxy
+
+# Network settings
+SocksPort 9050
+ControlPort 9051
+HashedControlPassword 16:872860B76453A77D60CA2BB8C1A7042072093276A3D701AD684053EC4C
+
+# Security settings
+CookieAuthentication 0
+ExitNodes {us},{de},{nl},{se},{ch}
+StrictNodes 1
+NewCircuitPeriod 30
+MaxCircuitDirtiness 600
+EnforceDistinctSubnets 1
+UseEntryGuards 1
+
+# Performance settings
+CircuitBuildTimeout 30
+LearnCircuitBuildTimeout 0
+CircuitStreamTimeout 30
+ClientOnly 1
+
+# Privacy settings
+SafeLogging 1
+LogTimeGranularity 1
+
+# Disable unnecessary features
+DisableDebuggerAttachment 1
+AvoidDiskWrites 1
+
+# Exit policy (client only)
+ExitPolicy reject *:*
+
+# Directory settings
+DataDirectory ~/.tor/niedproxy
