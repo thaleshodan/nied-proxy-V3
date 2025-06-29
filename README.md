@@ -1,6 +1,6 @@
 # NiedProxy v3.0
 
-Localhost-Based I2P Router Clone with Tor Integration Using Python and React
+NiedProxy is a localhost-based privacy solution that combines I2P router functionality with Tor network integration. Built with Python 3.7+ and React (Node.js 18+), this application provides secure anonymous routing with advanced monitoring capabilities.
 
 ## Features
 
@@ -14,7 +14,7 @@ Localhost-Based I2P Router Clone with Tor Integration Using Python and React
 
 ## Requirements
 
-- Linux/macOS/Win system
+- Linux/macOS/Windows system
 - Python 3.7+
 - Node.js 18+
 - Tor package
@@ -22,32 +22,32 @@ Localhost-Based I2P Router Clone with Tor Integration Using Python and React
 ## Installation
 
 1. **Clone the repository:**
-   \`\`\`bash
-   git clone <repository-url>
+   bash
+   git clone https://github.com/thaleshodan/nied-proxy-V3
    cd niedproxy
-   \`\`\`
+   
 
 2. **Install dependencies:**
-   \`\`\`bash
+   bash
    npm run install-deps
-   \`\`\`
+   
 
 3. **Install Python dependencies:**
-   \`\`\`bash
+   bash
    pip3 install requests stem psutil
-   \`\`\`
+   
 
 4. **Build the application:**
-   \`\`\`bash
+   bash
    npm run build
-   \`\`\`
+   
 
 ## Usage
 
 1. **Start the dashboard:**
-   \`\`\`bash
+   bash
    npm run dev
-   \`\`\`
+   
 
 2. **Access the dashboard:**
    Open your browser and navigate to `http://localhost:5050`
@@ -123,6 +123,5 @@ This tool is for educational and legitimate privacy purposes only. Users are res
 
 ## License
 
-MIT License - see LICENSE file for details
-\`\`\`
+MIT License 
 
